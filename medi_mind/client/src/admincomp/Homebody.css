@@ -1,0 +1,157 @@
+
+  
+  .heading{
+    width:100%;
+    height:40em;
+    background-image:url("https://images.pexels.com/photos/317371/pexels-photo-317371.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+  }
+  
+  .heading .inner{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%);
+    text-align:center;
+    color:#FFF;
+    font-family:helvetica;
+  }
+  
+  .heading .inner p{
+    font-size:1.2em;
+    padding-bottom:.5em;
+    letter-spacing:.2em;
+    color: blue;
+  }
+  
+  .heading .inner h1{
+    font-size:5em;
+    color: blue;
+    margin:.1em;
+  }
+  
+  .heading .inner button{
+    padding:.5em;
+    color:#FFF;
+    background-color:#32CD32;
+    border:none;
+    outline:none;
+    border-radius:2px;
+    box-shadow:1px 1px 1px rgba(0,0,0,.5);
+  }
+  
+  .cta{
+    width:100%;
+    height:auto;
+    background:#FFF;
+  }
+  
+  .cta .inner{
+    width:90%;
+    margin:1em auto 0 auto;
+    background:#FFF;
+    display:grid;
+    grid-template-columns:70% 30%;
+    grid-gap:0em;
+  }
+  
+  .cta .inner .left{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    color:deeppink;
+    font-family:helvetica;
+  }
+  
+  .cta .inner .left h3{
+    font-size:2em;
+    margin-bottom:.5em;
+  }
+  
+  .cta .inner .left p{
+    font-size:1.1em;
+    line-height:1.5em;
+  }
+  
+  .display{
+    width:100%;
+    margin:0;
+    padding:0;
+  }
+  
+  .display .inner{
+    margin:1em auto;
+    width:80%;
+  }
+  
+  .display .inner > h3{
+    font-size:3em;
+    color:rgba(50, 50, 200, .8);
+    margin-bottom:.5em;
+  }
+  
+  .display .inner .cards{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:35em;
+    grid-gap:2em;
+  }
+  
+  .cards > *{
+  
+    border-radius:7px;
+  
+  }
+  
+  .cards img{
+    width:100%;
+    height:27.2em;
+  }
+  
+  .cards .text{
+    text-align:center;
+    margin-top:1em;
+    color:rgba(50, 50, 200, .8);
+  }
+  
+  .text h3{
+    margin-bottom:.5em;
+    font-size:1.5em;
+  }
+  
+  .push{
+    height:3em;
+    background-color:ghostwhite;
+  }
+  
+  
+  .contact{
+    background-color:ghostwhite;;
+    padding:3em 2em 1em 2em;
+  }
+  
+  .contact h3{
+    font-size:2.2em;
+    text-transform:uppercase;
+    text-align:center;
+    padding-bottom:1em;
+  }
+  
+  .contact .inner{
+    display:grid;
+    grid-template-columns:45% 55%;
+  }
+  
+  .male-doctor img{
+    width:23em;
+  }
+  
+  
+  
+  .full{
+    grid-column:1/3;
+  }
+  
